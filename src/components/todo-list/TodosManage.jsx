@@ -17,7 +17,7 @@ const TodosManage = ({ data, deleteTodos, updateValus }) => {
         <li>{el.time}</li>
       </ul>
 
-      <div className="">
+      <div className="list__btns">
         <button className="edit__btn btn" onClick={() => updateValus(el)}>
           edit
         </button>
